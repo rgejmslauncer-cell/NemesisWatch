@@ -1,0 +1,37 @@
+# ---- Unity ----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]serSettings/
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# ---- Visual Studio / .NET ----
+bin/
+obj/
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# ---- Backend runtime data (don't commit real customer data or local DB) ----
+NemesisWatchApi/nemesiswatch.db
+NemesisWatchApi/nemesiswatch.db-shm
+NemesisWatchApi/nemesiswatch.db-wal
+NemesisWatchApi/appsettings.Development.json
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
