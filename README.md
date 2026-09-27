@@ -146,30 +146,6 @@ specifically so a skilled human player's genuinely fast reactions don't get
 auto-punished — pair a flag with an actual match replay before banning
 anyone off statistics alone.
 
-## Publishing this repository on GitHub
-
-If you don't have a GitHub account yet: go to github.com, sign up (13+ is
-allowed), verify your email.
-
-Once you have a repository created on github.com (green "New" button on
-your profile → name it, e.g. `nemesis-watch` → keep it Public → don't
-initialize with a README since this project already has one):
-
-```bash
-cd NemesisWatch_Package
-git init
-git add .
-git commit -m "Initial commit: Nemesis Watch anti-cheat system"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/nemesis-watch.git
-git push -u origin main
-```
-
-You'll need Git installed (git-scm.com) if it isn't already. GitHub will
-ask you to authenticate the first time — following its own prompts (a
-personal access token, or signing in through the Git Credential Manager
-it installs) is the simplest path.
-
 ## Contributing
 
 Issues and pull requests are welcome — this started as a learning project
